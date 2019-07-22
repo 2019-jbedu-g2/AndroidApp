@@ -34,7 +34,7 @@ public class Scene3 extends AppCompatActivity {
         Intent getin = getIntent();
         storenum = getIntent().getStringExtra("num");
         info.put("waiting", storenum);
-        info.put("",bar);
+//        info.put("",bar);
         Scene3.NetworkTask networkTask = new Scene3.NetworkTask(url, info);
 
         networkTask.execute();
