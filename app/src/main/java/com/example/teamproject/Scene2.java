@@ -43,7 +43,7 @@ public class Scene2 extends AppCompatActivity {
         }else{
             title = extra.getString("title");
         }
-
+//
         //adapter Setup
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
