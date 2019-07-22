@@ -68,6 +68,7 @@ public class Scene2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 
     public String getData(){
